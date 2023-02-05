@@ -1,0 +1,225 @@
+body{
+  margin:0;
+  padding:0;
+}
+    .top-bar {
+      position: flex;
+      background-color: black;
+      height: 6.25rem;
+    }
+    .login-button {
+      color: black;
+      position: absolute;
+      left: 96.875rem;
+      top: 3.125rem;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      border-radius: 1.875rem;
+      border-width: 0rem;
+      -ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+    }
+    .login-link {
+      font-family: 'Roboto';
+      font-size: 1.125rem;
+      text-decoration: none;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      border-radius: 1.875rem;
+      border-width: 0rem;
+      background-color: #1d9bf0;
+      color: white;
+      font-weight: bold;
+      transition: opacity 0.15s;
+
+    }
+    .login-link:hover {
+      cursor: pointer;
+      opacity: 80%;
+    }
+    .login-link:active {
+      opacity:70%;
+    }
+    .Company-button {
+      position: absolute;
+      left: 6.25rem;
+      top: 3.125rem;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      border-radius: 1.875rem;
+      border-width: 0rem;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      font-family: 'Roboto';  
+      color: white;
+      background-color: black;
+      font-size: 1.125rem;
+      transition: backgorund-color 0.3s, color 0.3s, opacity 0.1s;
+    }
+    .Company-button:hover {
+      background-color: white;
+      color: black;
+    }
+    .Company-button:active {
+      opacity: 80%;
+    }
+    .company-dropdown {
+      position: relative;
+    }
+    .dropdownmenu {
+      position: absolute;
+      left: 0;
+      top: calc(100%);
+      z-index: 4;
+      background-color: white;
+      padding: .75rem;
+    }
+    .signup-button {
+      position: absolute;
+      left: 106.25rem;
+      top: 3.125rem;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      border-radius: 1.875rem;
+      border-width: 0rem;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      font-family: 'Roboto';  
+      color: white;
+      background-color: black;
+      font-size: 1.125rem;
+      transition: background-color 0.3s, color 0.3s, opacity 0.1s;
+    }
+    .signup-button:hover {
+      background-color: white;
+      color: black;
+    }
+    .signup-button:active {
+      opacity: 80%;
+    }
+    .business-button {
+      position: absolute;
+      left: 18.75rem;
+      top: 3.125rem;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      border-radius: 1.875rem;
+      border-width: 0rem;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      font-family: 'Roboto';  
+      color: white;
+      background-color: black;
+      font-size: 1.125rem;
+      transition: background-color 0.3s, color 0.3s, opacity 0.1s;
+    }
+    .business-button:hover {
+      background-color: white;
+      color: black;
+    }
+    .business-button:active {
+      opacity: 80%;
+    }
+    .customer-button {
+      position: absolute;
+      left: 31.25rem;
+      top: 3.125rem;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      border-radius: 1.875rem;
+      border-width: 0rem;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      font-family: 'Roboto';  
+      color: white;
+      background-color: black;
+      font-size: 1.125rem;
+      transition: background-color 0.3s, color 0.3s, opacity 0.1s;
+    }
+    .customer-button:hover {
+      background-color: white;
+      color: black;
+    }
+    .customer-button:active {
+      opacity: 80%;
+    }
+    .title {
+      position: absolute;
+      color: white;
+      left: 59.375rem;
+      top: 3.125rem;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      font-size: 3.125rem;
+    }
+    .title-phrase {
+      font-family: 'Roboto';
+    }
+    .mainpage-background {
+      display: flex;
+      justify-content: center;
+      z-index: 1;
+    }
+    .background-image {
+      z-index: 2;
+      max-width: 100%;
+    }
+    .search-background {
+      font-family: 'Roboto';
+      color: black;
+      background-color: rgb(199, 196, 196);
+      width: 25rem;
+      height: 25rem;
+      position:absolute;
+      top: 15.625rem;
+      left: 18.75rem;
+      z-index: 3;
+      border-radius: 0.1875rem;
+}
+.search-text {
+font-size: larger;
+position: relative;
+left: 1.875rem;
+border-right: solid 0.1875rem black;
+animation: animated-text 4s steps(29,end) 1s 1 normal both,
+           animated-cursor 600ms steps(29,end) infinite;
+           white-space: nowrap;
+overflow: hidden;   
+}
+@keyframes animated-text{
+from{width: 0;}
+to{width: 18.4375rem;}
+}
+@keyframes animated-cursor{
+from{border-right-color: black;}
+to{border-right-color: transparent;}
+}
+.country-selector {
+position: relative;
+left: 1.875rem;
+padding: 0.625rem;
+top: 3.125rem;
+font-family: 'Roboto'
+}
+.search-button {
+position: relative;
+left: 1.875rem;
+top: 6.25rem;
+padding-left: 8.8125rem;
+padding-right: 8.8125rem;
+padding-top: 0.625rem;
+padding-bottom: 0.625rem;
+font-size: 0.9375rem;
+}
