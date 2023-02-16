@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
+.Nav-button {
+  @apply  flex-1 font-bodoni rounded-full text-3xl hover:text-red-300 ease-in duration-150 text-slate-200 
+}
+
+.join-button {
+  @apply rounded-full bg-rose-200 pl-20 pr-20 pt-5 pb-5 font-bodoni text-xl hover:opacity-80 transition-opacity duration-150 ease-in active:opacity-75
+}
+
+.motto {
+  @apply font-extrabold text-8xl p-0 font-bodoni flex justify-center absolute left-0 right-0 h-1/2 translate-y-125 text-slate-50
+}
+.Company-button {
+  @apply  flex-1 font-bodoni rounded-full text-5xl hover:text-red-300 ease-in duration-150 text-slate-200 
+}
